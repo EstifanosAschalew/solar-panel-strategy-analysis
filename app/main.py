@@ -7,9 +7,9 @@ import seaborn as sns
 st.title('Solar Farm Data Analysis')
 
 # Load datasets
-benin_data = pd.read_csv('data/benin-malanville.csv')
-sierraleone_data = pd.read_csv('data/sierraleone-bumbuna.csv')
-togo_data = pd.read_csv('data/togo-dapaong_qc.csv')
+benin_data = pd.read_csv('d../ata/benin-malanville.csv')
+sierraleone_data = pd.read_csv('../data/sierraleone-bumbuna.csv')
+togo_data = pd.read_csv('../data/togo-dapaong_qc.csv')
 
 # sidebar for selecting dataset
 dataset=st.sidebar.selectbox('select Dataset',('benin','sierraleone','togo'))
