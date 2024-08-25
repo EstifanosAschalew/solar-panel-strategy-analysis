@@ -1,0 +1,10 @@
+project-venv/
+__pycache__/
+*.py[cod]
+data/*.csv
+data/*.xlsx
+.env
+.streamlit/
+.ipynb_checkpoints
+.vscode/
+.idea/
