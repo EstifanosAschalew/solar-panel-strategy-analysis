@@ -1,7 +1,6 @@
 # Solar Panel Strategy Analysis
-
 ## Project Overview
-    This project focuses on analyzing solar farm data from Benin, Sierra Leone, and Togo to recommend optimal solar panel installation sites. The goal is to help a company become more efficient and sustainable by leveraging environmental data to determine the best locations for solar panel installations.
+This project focuses on analyzing solar farm data from Benin, Sierra Leone, and Togo to recommend optimal solar panel installation sites. The goal is to help a company become more efficient and sustainable by leveraging environmental data to determine the best locations for solar panel installations.
 
 ## Key Features
  **Data Processing**: Scripts to load, clean, and preprocess solar radiation data, including variables like Global Horizontal Irradiance (GHI), Direct Normal Irradiance (DNI), and Diffuse Horizontal Irradiance (DHI).
@@ -11,22 +10,13 @@
  **Streamlit App:** An interactive web application built with Streamlit for visualizing and analyzing solar radiation data.
 
 ## Project Structure:
-├── app/
-│   ├── main.py                   # Main Streamlit application
-│   └── ...                       # Other app-related scripts and assets
-├── data/
-│   ├── benin-malanville.csv      # Dataset for Benin
-│   ├── sierraleone-bumbuna.csv   # Dataset for Sierra Leone
-│   └── togo-dapaong_qc.csv       # Dataset for Togo
-├── notebooks/
-│   ├── data_analysis.ipynb       # Jupyter notebook for data analysis
-│   └── ...                       # Other notebooks
-├── tests/
-│   ├── test_data_loading.py      # Tests for data loading
-│   └── ...                       # Other test scripts
-├── .gitignore                    # Git ignore file
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
+app/main.py                   # Main Streamlit application
+data/                         # Dataset
+notebooks/ data_analysis.ipynb # Jupyter notebook for data analysis
+tests/ test_data_loading.py    # Tests for data loading
+.gitignore                    # Git ignore file
+requirements.txt              # Python dependencies
+README.md                     # Project documentation
 
 
 ## Installation
