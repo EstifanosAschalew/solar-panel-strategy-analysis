@@ -4,7 +4,11 @@ import os
 from scripts.data_processing import load_data, clean_data, calculate_correlation, prepare_time_series
 
 class TestDataProcessing(unittest.TestCase):
-    file_paths = ['../data/benin-malanville.csv','../data/sierraleone-bumbuna.csv','../data/togo-dapaong_qc.csv']
+    file_paths = [
+        'C:\\Users\\Go a Head Bro\\Documents\\10Academy-AIM-Journey\\solar-panel-strategy-analysis\\data\\benin-malanville.csv',
+        'C:\\Users\\Go a Head Bro\\Documents\\10Academy-AIM-Journey\\solar-panel-strategy-analysis\data\\sierraleone-bumbuna.csv',
+        'C:\\Users\\Go a Head Bro\\Documents\\10Academy-AIM-Journey\\solar-panel-strategy-analysis\\data\\togo-dapaong_qc.csv'
+        ]
 
     # Test if data loading works correctly for all datasets
     def test_load_data(self):
