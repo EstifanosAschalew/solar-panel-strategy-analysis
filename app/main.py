@@ -7,9 +7,9 @@ import seaborn as sns
 st.title('Solar Farm Data Analysis')
 
 # Load datasets
-benin_data = pd.read_csv('../data/benin-malanville.csv')
-sierraleone_data = pd.read_csv('../data/sierraleone-bumbuna.csv')
-togo_data = pd.read_csv('../data/togo-dapaong_qc.csv')
+benin_data = pd.read_csv('C:/Users/Go a Head Bro/Documents/10Academy-AIM-Journey/solar-panel-strategy-analysis/data/benin-malanville.csv')
+sierraleone_data = pd.read_csv('C:/Users/Go a Head Bro/Documents/10Academy-AIM-Journey/solar-panel-strategy-analysis/data/sierraleone-bumbuna.csv')
+togo_data = pd.read_csv('C:/Users/Go a Head Bro/Documents/10Academy-AIM-Journey/solar-panel-strategy-analysis/data/togo-dapaong_qc.csv')
 
 # sidebar for selecting dataset
 dataset=st.sidebar.selectbox('select Dataset',('benin','sierraleone','togo'))
@@ -49,5 +49,5 @@ ax.plot(data.index,data['DHI'],label='DHI',linestyle=':')
 ax.set_xlabel('Date')
 ax.set_ylabel('Radiance(W/m²)')
 ax.set_title('Time series of solar radiation')
-ax.legend()
+ax.legend(loc='upper right')
 st.pyplot(fig)
